@@ -1,0 +1,10 @@
+
+*.dart linguist-detectable=true
+*.dart linguist-language=Dart
+
+
+/build/** linguist-vendored
+
+
+/android/** linguist-vendored
+/ios/** linguist-vendored
