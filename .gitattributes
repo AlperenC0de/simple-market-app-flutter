@@ -1,10 +1,24 @@
 
+
 *.dart linguist-detectable=true
 *.dart linguist-language=Dart
 
 
 /build/** linguist-vendored
-
-
-/android/** linguist-vendored
 /ios/** linguist-vendored
+/android/** linguist-vendored
+/macos/** linguist-vendored
+/web/** linguist-vendored
+/windows/** linguist-vendored
+/linux/** linguist-vendored
+
+
+*.cpp linguist-vendored
+*.cc linguist-vendored
+*.c linguist-vendored
+*.h linguist-vendored
+*.hpp linguist-vendored
+
+
+* linguist-language=Dart
+
